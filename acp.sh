@@ -2,12 +2,10 @@
 
 echo_green() {
     echo
-    echo
     echo -e "\033[0;34m$1\033[0m"
 }
 
 echo_red() {
-    echo
     echo
     echo -e "\033[0;31m$1\033[0m"
 }
